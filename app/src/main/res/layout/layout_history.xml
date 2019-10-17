@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_toLeftOf="@+id/btnClF"
+            android:background="@drawable/txtbg1"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:focusable="auto"
+            android:hint="@string/hsearchHint"
+            android:padding="5dp"/>
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/search_bg"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:id="@+id/btnClF"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toLeftOf="@id/btnSearch"
+            android:background="@drawable/cacel_bg"
+            android:layout_marginLeft="5dp"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/h_item" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pcmargin">10dp</dimen>
+    <dimen name="pcpadding">5dp</dimen>
+    <dimen name="txtpadding">5dp</dimen>
+    <dimen name="btnMargin">10dp</dimen>
+    <dimen name="textSize1">20sp</dimen>
+    <dimen name="lsize">16sp</dimen>
+</resources>

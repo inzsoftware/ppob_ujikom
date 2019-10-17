@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/libg"
+    android:layout_marginTop="5dp"
+    android:padding="5dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:padding="5px"
+                android:text="@string/blth" />
+            <TextView
+                android:text=":" />
+            <TextView
+                android:id="@+id/txtBlth"
+                android:padding="5px"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:padding="5px"
+                android:text="@string/kwh" />
+            <TextView
+                android:text=":" />
+            <TextView
+                android:id="@+id/txtKwh"
+                android:padding="5px"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:padding="5px"
+                android:text="@string/biaya" />
+            <TextView
+                android:text=":" />
+            <TextView
+                android:id="@+id/txtbiaya"
+                android:padding="5px"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/txtTitile"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:text="TextView"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="bold" />-->
+</RelativeLayout>
